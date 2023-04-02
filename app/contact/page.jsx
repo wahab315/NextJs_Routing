@@ -1,7 +1,13 @@
 import React from "react";
+import ServerCompoents from "../../components/server/ServerCompoents";
+import Contact from "./contact";
 
 const page = () => {
-  return <div>Contact</div>;
+  return (
+    <Contact>
+      <ServerCompoents />
+    </Contact>
+  );
 };
 
 export default page;
